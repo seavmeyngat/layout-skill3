@@ -1,0 +1,24 @@
+.boxs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 32%;
+    height: 250px;
+    margin: 10px;
+    background-color: red;
+}
+@media screen and (max-width: 850px){
+    .box{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 550px){
+    .box{
+        width: 95%;
+    }
+}
